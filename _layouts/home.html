@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <img src="/assets/images/pixelpacific-logo.png" alt="PixelPacific Logo" width="200" />
+  <h1>PixelPacific Publishing</h1>
+  <p>Publishing bold new stories across oceans and stars.</p>
+</section>
+
+<section>
+  <h2>Featured Books</h2>
+  <ul>
+    {% for book in site.books limit:2 %}
+      <li>
+        <strong>{{ book.title }}</strong> by {{ book.author }}<br/>
+        <a href="{{ book.website }}">Learn More</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

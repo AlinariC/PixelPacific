@@ -1,0 +1,95 @@
+/* Base Styles */
+body {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header img {
+  max-width: 150px;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(#ffffff, #e0f7ff);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #004d80;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+/* Section Headings */
+h1, h2, h3 {
+  color: #004d80;
+}
+
+/* Book and Author Listings */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 2rem 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

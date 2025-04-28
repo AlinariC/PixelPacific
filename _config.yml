@@ -1,0 +1,25 @@
+title: "PixelPacific Publishing"
+description: "Publishing bold new stories across oceans and stars."
+baseurl: ""
+url: "https://publishing.pixelpacific.com"
+
+collections:
+  authors:
+    output: true
+  books:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book"
+
+markdown: kramdown
+theme: minima
