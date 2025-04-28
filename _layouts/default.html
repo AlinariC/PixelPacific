@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/pixelpacific-logo.png">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
   <title>{{ page.title }} | PixelPacific Publishing</title>
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
